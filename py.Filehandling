@@ -1,0 +1,24 @@
+# python
+
+
+f= open("trial.txt","r")
+print(f.read) or print(f.read(text no.))
+print(f.readline())
+print(f.readline())
+print(f.readline())
+
+for x in f:
+    print(x)
+
+f.close()
+
+f.write("A new line now")
+f.close()
+import os
+os.remove("trial.txt")
+
+import os
+ if os.path.exists("desktop.ini"):
+     os.removed("desktop.ini")
+else:
+    print("File Not Present")
