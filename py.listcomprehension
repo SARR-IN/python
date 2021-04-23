@@ -1,0 +1,26 @@
+# python
+
+fruits=["apples","bananas","kiwi","mango"]
+newfruit=[]
+
+for x in fruits:
+    if "a" in x: or if "i" in x
+        newfruit.append(x)
+
+print(newfruit)
+
+newfruit=[x for x in fruits if "i" in x] or (i=a)
+ 
+ print(newfruit)
+
+newfruit=[x for x in fruits if x!="bananas"]
+ print(newfruit)
+
+ newfruit=[x for x in range(10) if x<6] or newfruit=[x for x in range(10) if x>6]
+ print(newfruit)
+
+newfruit=[x.upper() for x in fruits]
+print(newfruit)
+
+newfruit=[x if x!="bananas" else "oranges" for x in fruits]
+print(newfruit) 
