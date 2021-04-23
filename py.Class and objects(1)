@@ -1,0 +1,9 @@
+# python
+
+#class and objects
+
+class Human:
+    x=5
+
+h1= Human()    
+print(h1.x)
