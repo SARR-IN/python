@@ -1,0 +1,18 @@
+# python
+
+#class and objects
+
+ def __init__(silly,name, age):
+        silly.name = name
+        silly.age= age
+
+    def method(silly):
+        print("Hi. My name is "+ silly.name)
+
+h1= Human("Sherlock", 6)
+h1.methods()
+
+del h1
+h1.name="Karthik"
+h1.age=40
+h1.methods()
