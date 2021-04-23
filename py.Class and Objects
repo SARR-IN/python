@@ -1,0 +1,64 @@
+# python
+
+#class and objects
+
+class Human:
+    x=5
+
+h1= Human()    
+print(h1.x)
+
+
+#class and objects
+
+class Human:
+    def __init__(self,name, age):
+        self.name = name
+        self.age= age
+
+h1= Human("Sherlock", 6)
+
+print(h1.name)
+print(h1.age)
+
+
+
+#class and objects
+
+class Human:
+    def __init__(self,name, age):
+        self.name = name
+        self.age= age
+
+    def method(self):
+        print("Hi. My name is "+ self.name)
+
+h1= Human("Sherlock", 6)
+h2= Human("Karthik", 26)
+
+h1.methods()
+h2.methods()
+
+
+
+ def __init__(silly,name, age):
+        silly.name = name
+        silly.age= age
+
+    def method(silly):
+        print("Hi. My name is "+ silly.name)
+
+h1= Human("Sherlock", 6)
+h1.methods()
+
+del h1
+h1.name="Karthik"
+h1.age=40
+h1.methods()
+
+
+#class and objects
+
+class Human:
+  pass
+
