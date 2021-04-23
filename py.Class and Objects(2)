@@ -1,0 +1,17 @@
+# python
+
+#class and objects
+
+class Human:
+    def __init__(self,name, age):
+        self.name = name
+        self.age= age
+
+    def method(self):
+        print("Hi. My name is "+ self.name)
+
+h1= Human("Sherlock", 6)
+h2= Human("Karthik", 26)
+
+h1.methods()
+h2.methods()
