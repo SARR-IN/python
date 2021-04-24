@@ -1,0 +1,10 @@
+# python
+
+def square(x):
+    return x*x
+
+number=[1,2,3,4,5]
+
+listsquares= map(square,number)
+
+print(list(listsquares))
