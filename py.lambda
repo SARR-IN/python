@@ -1,0 +1,50 @@
+# python
+
+x= lambda a: a+20
+print(x(5))
+
+
+x= lambda a,b: a+b
+print(x(5,30))
+
+
+x= lambda a,b: a-b
+print(x(5,30))
+
+
+x= lambda a,b: a/b
+print(x(30,5))
+
+
+x= lambda a,b: a*b
+print(x(5,30))
+
+
+def f1(n):
+    return lambda a :a*n
+
+doub= f1(2)
+trip= f1(3)
+
+print(doub(10))
+print(doub(11))
+
+
+def f1(n):
+    return lambda a :a/n
+     
+doub= f1(5)
+trip= f1(6)
+
+print(doub(30))
+print(doub(12))
+
+
+def f1(n):
+  return lambda a :a+n
+
+doub= f1(7)
+doub= f1(4)
+
+print(doub(12))
+print(doub(56))
