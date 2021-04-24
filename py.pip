@@ -1,0 +1,22 @@
+# python
+
+#package
+
+#Numpy
+#Pendulum
+#Python Imaging Libarary
+#MoviePy
+#Requests
+#Tkinter
+#PyQt
+#Pandas
+#py32
+#pyTest
+        
+import camelcase
+
+x= camelcase.Camelcase()
+
+a= "hi there! this is a message to check if the letters of each word are capitalised"
+
+print(x.hump(a))
