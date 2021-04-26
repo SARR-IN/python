@@ -1,0 +1,6 @@
+# python
+
+tuple1 = ("car","bike","train")
+
+for x in tuple1:
+    print(x)
