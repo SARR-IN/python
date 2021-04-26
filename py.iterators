@@ -1,0 +1,20 @@
+# python
+
+tuple1 = ("car","bike","train")
+myite = iter(tuple1)  
+
+print(next(myite))
+print(next(myite))
+print(next(myite))
+
+
+
+tuple1 = "apples"
+myite = iter(tuple1)  
+
+print(next(myite))
+print(next(myite))
+print(next(myite))
+print(next(myite))
+print(next(myite))
+print(next(myite))
