@@ -1,0 +1,18 @@
+# python
+
+import mysql.connector
+
+mydb= mysql.connector.connect(
+    host="localhost"
+    user="root"
+    password="qwerty123"
+    database="pythonprogramming"
+)
+
+mycursor= my.dbcursor()
+
+mycursor.execute("SELECT * FROM actor")
+
+myresult= mycursor.fetchone()
+
+    print(myresult)
