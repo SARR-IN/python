@@ -1,0 +1,25 @@
+# python
+
+import json
+
+person = {"name": "Bob",
+          "age":12,
+          "languages":"English"
+          }
+
+with open('person.txt', 'w') as json_file:
+    json.dump(person, json_file)
+
+
+"""
+dict
+list
+tupple
+str
+int
+float
+Bool
+None
+
+
+"""
