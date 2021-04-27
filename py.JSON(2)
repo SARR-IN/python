@@ -1,0 +1,9 @@
+# python
+
+import json
+
+peron = '{"name": "Bob", "languages": ["English", "Fench"]}'
+peron_dict= json.loads(peron)
+
+print(peron_dict)
+print(peron_dict['languages'])
