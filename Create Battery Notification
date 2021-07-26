@@ -1,0 +1,21 @@
+import psutil
+from player import notification
+from time
+
+def conversion(sec): #function to convert seconds into Hr & min
+    sec_valuee = sec % (24 * 3600)
+    hour_value = sec_value // 3600
+    sec_value %= 3600
+    min_value = sec_value // 60
+    sec_value %= 60
+    return hour_value,min_value
+
+    while True:
+        battery = psutil.sensors_battery()
+        h,m = conversion(battery.wsecsleft)
+        notification.notify(
+            title="Battery Percentage ",
+            message = f'{h}Hr {m}Min {battery.percent}% remaining' ,
+            timeout=10
+        )
+        time.sleep(60*60)= Notify After Every 1 Hours
